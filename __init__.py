@@ -11,12 +11,11 @@ def MaPremiereAPI():
     return render_template("contact.html")
 
 @app.route("/Page404/")
-def monhistogramme():
+def page404():
     return render_template("page404.html")
 
-
 @app.route("/commits/")
-def monhistogramme():
+def commits():
     return render_template("commits.html")
 
 @app.route("/histogramme/")
