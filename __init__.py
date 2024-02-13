@@ -10,6 +10,10 @@ app = Flask(__name__)
 def MaPremiereAPI():
     return render_template("contact.html")
 
+@app.route("/Page404/")
+def monhistogramme():
+    return render_template("page404.html")
+
 @app.route("/histogramme/")
 def monhistogramme():
     return render_template("histogramme.html")
