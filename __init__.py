@@ -10,6 +10,9 @@ app = Flask(__name__)
 def MaPremiereAPI():
     return "<h2>Ma page de contact</h2>"
 
+@app.route("/rapport/")
+def mongraphique():
+    return render_template("graphique.html")
 
 @app.route('/tawarano/')
 def meteo():
