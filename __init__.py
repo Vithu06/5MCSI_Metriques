@@ -10,7 +10,7 @@ app = Flask(__name__)
 def MaPremiereAPI():
     return render_template("contact.html")
 
-@app.route("/Page404/")
+@app.route("/page404/")
 def page404():
     return render_template("page404.html")
 
