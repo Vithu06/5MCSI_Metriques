@@ -14,6 +14,11 @@ def MaPremiereAPI():
 def monhistogramme():
     return render_template("page404.html")
 
+
+@app.route("/commits/")
+def monhistogramme():
+    return render_template("commits.html")
+
 @app.route("/histogramme/")
 def monhistogramme():
     return render_template("histogramme.html")
